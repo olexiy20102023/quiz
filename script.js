@@ -87,7 +87,7 @@ start_button.addEventListener("click", function(){
         block.style.display = "none"
         title.innerHTML = `<h3>Ви дали ${correct_answers_given} правильних відповідей (${question_counter});
         Точність: ${Math.round(100 * correct_answers_given / question_counter)}% </h3>`
-    }, 10000)
+    }, 1000*30)
 })
 
 
